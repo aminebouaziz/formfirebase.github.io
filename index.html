@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>form</title>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <H1 class="brand"> <span>GMC</span> WEB1</H1>
+        <div class="wrapper animated bounceInLeft">
+            <div class="company-info">
+                <h3>BONJOUR</h3>
+                <ul>
+                    <li> <i class="fa fa-road"></i>25,RUE GHANA</li>
+                    <li> <i class="fa fa-phone"></i>(00216) 53 451 615</li>
+                    <li><i class="fa fa-envelope"></i>test@gmail.com</li>
+                </ul>
+            </div>
+            <div class="contact">
+                <h3>EMAIL US</h3>
+                <div class="alert">your message has been sent</div>
+                <form id="contactForm">
+                    <p>
+                        <label for="">Name</label>
+                        <input type="text" name="name" id="name">
+                    </p>
+                    <p>
+                        <label for="">Companny</label>
+                        <input type="text" name="companny" id="company">
+                    </p>
+                    <p>
+                        <label for="">Email Address</label>
+                        <input type="text" name="email" id="email">
+                    </p>
+                    <p>
+                        <label for="">Phone Number</label>
+                        <input type="text" name="phone" id="phone">
+                    </p>
+                    <p class="full">
+                        <label for="">Message</label>
+                        <textarea  name="message" rows="5"  id="message"> </textarea>
+                    </p>
+                    <p class="full">
+                        <button type="submit" >Submit</button>
+                    </p>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/5.2.0/firebase.js"></script>
+    <script src="main.js"></script>
+    
+</body>
+</html>
